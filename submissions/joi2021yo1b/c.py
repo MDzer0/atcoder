@@ -1,0 +1,6 @@
+N = int(input())
+a = list(map(int, input().split()))
+maxa = max(a)
+index = a.index(maxa)
+print(sum(a[:index]))
+print(sum(a[index + 1:]))

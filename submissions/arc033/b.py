@@ -1,0 +1,6 @@
+NA, NB = map(int, input().split())
+a = list(map(int, input().split()))
+b = list(map(int, input().split()))
+tmp = len(a + b)
+settmp = len(set(a + b))
+print((tmp - settmp) / settmp)
